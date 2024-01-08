@@ -1,0 +1,517 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+.contener{
+    display: flex;
+    height: 100vh;
+    background-color: blue;
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("/images/maldiv.jpg");
+    background-size: cover;
+}
+
+
+
+.nevbar{
+    font-size: 18px;
+    display: flex;
+    height: 9vh;
+    width: 100vw;
+    background-color: rgb(7, 62, 166);
+    position: "fixed";
+}
+
+.nevbar{
+    position: fixed;
+}
+
+.nevbar img{
+    padding: 13px;
+}
+
+.nevbar ul{
+    display: flex;
+    list-style: none;
+    margin-left: 27px;
+    padding: 18px;
+}
+
+.nevbar ul li{
+    margin-left: 37px;
+    
+}
+
+.nevbar a{
+    text-decoration: none;
+    font-size: 24;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.nevbar a:hover{
+    color: orange;
+}
+
+.inp input{
+    width: 170px;
+    height: 37px;
+    padding: 18px;
+    margin-left: 37px;
+    margin-top: 11px;
+    border-radius: 14px;
+}
+
+.nevbar input{
+    padding: 18px;   
+}
+
+button{
+    width: 70px;
+    height: 37px;
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+}
+
+button:hover{
+    color: white;
+    background-color: transparent;
+}
+
+.lo-re{
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+}
+
+ .lo-re ul li #b1{
+    border: 2px solid white;
+    width: 88px;
+    border-radius: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 5px;
+    margin-bottom:8px ;
+}
+
+.lo-re ul li #b1:hover{
+   color: black;
+   background-color: orange;
+}
+
+.lo-re ul li #b2{
+    border: 2px solid white;
+    width: 88px;
+    border-radius: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#b1 .a_login{
+    color: white;
+    background-color: transparent;
+}
+
+#b2 .a_register{
+    color: black;
+    
+}
+
+#b2 .a_register:hover{
+    color: white;
+    
+}
+
+
+#b1 .a_login:hover{
+    color: black;
+    background-color: orange;
+}
+
+.section{
+    position: absolute;
+    top: 240px;
+    left: 32%;
+    color: white;
+    font-size: 58px;
+    font-weight: 600;
+    
+}
+
+.section br{
+    font-size: 58px;
+    font-weight: 300;   
+}
+
+.section button{
+    padding: 14px;
+    width: 120px;
+    height: 55px;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid white;
+    
+}
+
+.section #btn2{
+    background-color: transparent;
+}
+
+.section #btn2:hover{
+    background-color: orange;
+    color: black;
+}
+
+
+
+
+/*  Services  */
+
+h1{
+    margin-top: 40px;
+}
+
+.service{
+    height: 35vh;
+    padding-left: 270px;
+    background-color:wheat;
+    margin-top:35px ;
+    margin-left: 30spx;
+    display: flex;
+    align-items: center;
+    border: 30px solid white;
+    border-radius: 80px;
+    
+}
+
+.service .price{
+    margin-left: 60px;
+     
+}
+
+.service .secure{
+    margin-left: 60px;
+    
+}
+
+.service .pick-up{
+    margin-left: 60px;
+    
+}
+
+.wrapper{
+    margin-top: 26px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(209, 238, 208);
+    border: 30px solid white;
+    border-radius: 120px;
+}
+
+.wrapper p{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    display: flex;
+    display: inline-block;
+    margin-top: 240px;
+    margin-left: 66px;
+}
+
+.wrapper p #p{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    display: flex;
+    display: inline-block;
+}
+
+.parent{
+    width: 28%;
+    margin: 30px;
+    height: 190px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    transition: all 1.0s;
+}
+
+.img1{
+    border-radius: 18px;
+    height: 100%;
+    width: 95%;
+    background-size: cover;
+    background-image: url("/images/historicalplaces/Taj-Mahal-Agra-feature.jpg");
+    transition: all 1.0s;
+}
+
+.img2{
+    border-radius: 18px;
+    height: 100%;
+    width: 95%;
+    background-size: cover;
+    background-image: url("/images/historicalplaces/Mumbai-India-scaled.jpg");
+    transition: all 1.0s;
+}
+
+.img3{
+    border-radius: 18px;
+    height: 100%;
+    width: 95%;
+    background-size: cover;
+    background-image: url("/images/historicalplaces/amrutser_temple.jpg");
+    transition: all 1.0s;
+}
+
+.img4{
+    border-radius: 18px;
+    height: 100%;
+    width: 95%;
+    background-size: cover;
+    background-image: url("/images/historicalplaces/Mysore_Palace\,_Mysore\,_Karnataka.jpg");
+    transition: all 1.0s;
+}
+
+.img5{
+    border-radius: 18px;
+    height: 100%;
+    width: 95%;
+    background-size: cover;
+    background-image: url("/images/mounten/ooty.jpg");
+    transition: all 1.0s;
+}
+
+.img6{
+    border-radius: 18px;
+    height: 100%;
+    width: 95%;
+    background-size: cover;
+    background-image: url("/images/historicalplaces/ajintha_caves.jpg");
+    transition: all 1.0s;
+}
+
+.parent:hover{
+    transform: scale(1.1);
+}
+
+.wrapper button{
+    width: 110px;
+    height: 45px;
+    background-color: rgb(255, 188, 64);
+    color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 19px;
+}
+
+.wrapper button:hover{
+    background-color: black;
+    color: white;
+}
+
+.contact{
+    height: 100vh;
+    background-color: #e8f0fe;
+    padding: 50px;
+    text-align: center; 
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.container h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.contact-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;   
+}
+
+.contact-form{
+    text-align: left;
+
+}
+
+.contact-form h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+input:focus,
+textarea:focus{
+    outline: none;
+    box-shadow: 0 0 8px #bbb;
+}
+
+.button{
+    width: 150px;
+    height: 45px;
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: rgb(38, 233, 38);
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+}
+
+.button:hover{
+    background-color: #45a049;
+     
+}
+
+.contact-info{
+    text-align: left;
+}
+
+.contact-info h3{
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-info p{
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.contact-info i{
+    color: #4caf50;
+    margin-left: 20px;
+    margin-right: 13px;
+}
+
+.footer{
+    width: 100vw;
+    height: 65vh;
+    background-color: rgb(9, 9, 57);
+}
+
+.footer_wrapper{
+    width: 88vw;
+    display: flex;
+     
+}
+
+.footer_wrapper .imp_link{
+    color: white;
+    margin-top: 60px;
+    margin-left: 170px;
+    align-items: center;
+
+}
+
+.footer_wrapper .imp_link .hr1 hr{
+   width: 62px;
+    
+}
+
+.footer_wrapper .imp_link .hr4 hr{
+    width: 122px;
+     
+ }
+
+.footer_wrapper .imp_link ul{
+    margin-top: 25px;
+    margin-left: 10px;
+    list-style: none;
+}
+
+.footer_wrapper .imp_link ul li{
+    margin-bottom: 16px;
+    color:rgb(246, 242, 242);
+}
+
+.footer_wrapper .imp_link ul li:hover{
+    color: orange;
+}
+
+.footer_wrapper .imp_link input{
+    width: 15vw;
+    height: 30px;
+    margin-top: 18px;
+
+}
+
+.footer_wrapper .imp_link .footer_btn{
+    margin-top: 17px;
+    width: 15vw;
+    height: 30px;
+    background-color: rgb(248, 42, 111);
+    color: white;
+}
+
+.footer_wrapper .imp_link .footer_btn:hover{
+    background-color: rgb(174, 86, 115);
+}
+
+.footer .hr_bottom{
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.footer_heading{
+    color: white;
+    margin-top: 16px;
+    margin-left: 35px;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+}
+
+.footer_cantent h5{
+    color: #bbb;
+    margin-top: 10px;
+}
+
+.footer_heading i{
+    margin-left: 30px;
+}
+
+.footer_heading .social_media{
+    margin-left: 550px;
+}
+
+#h4{
+    align-items: center;
+    text-align: center;
+}
+
+#h4 p{
+    color: #bbb;
+    align-items: center;
+    margin-right: 20px;
+    overflow: hidden;
+    justify-content: center;
+}
+
