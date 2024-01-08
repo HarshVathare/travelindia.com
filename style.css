@@ -8,7 +8,7 @@
     display: flex;
     height: 100vh;
     background-color: blue;
-    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("/images/maldiv.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("./images/maldiv.jpg");
     background-size: cover;
 }
 
@@ -249,7 +249,7 @@ h1{
     height: 100%;
     width: 95%;
     background-size: cover;
-    background-image: url("/images/historicalplaces/Taj-Mahal-Agra-feature.jpg");
+    background-image: url("./images/historicalplaces/Taj-Mahal-Agra-feature.jpg");
     transition: all 1.0s;
 }
 
@@ -258,7 +258,7 @@ h1{
     height: 100%;
     width: 95%;
     background-size: cover;
-    background-image: url("/images/historicalplaces/Mumbai-India-scaled.jpg");
+    background-image: url("./images/historicalplaces/Mumbai-India-scaled.jpg");
     transition: all 1.0s;
 }
 
@@ -267,7 +267,7 @@ h1{
     height: 100%;
     width: 95%;
     background-size: cover;
-    background-image: url("/images/historicalplaces/amrutser_temple.jpg");
+    background-image: url("./images/historicalplaces/amrutser_temple.jpg");
     transition: all 1.0s;
 }
 
@@ -276,7 +276,7 @@ h1{
     height: 100%;
     width: 95%;
     background-size: cover;
-    background-image: url("/images/historicalplaces/Mysore_Palace\,_Mysore\,_Karnataka.jpg");
+    background-image: url("./images/historicalplaces/Mysore_Palace\,_Mysore\,_Karnataka.jpg");
     transition: all 1.0s;
 }
 
@@ -285,7 +285,7 @@ h1{
     height: 100%;
     width: 95%;
     background-size: cover;
-    background-image: url("/images/mounten/ooty.jpg");
+    background-image: url("./images/mounten/ooty.jpg");
     transition: all 1.0s;
 }
 
@@ -294,7 +294,7 @@ h1{
     height: 100%;
     width: 95%;
     background-size: cover;
-    background-image: url("/images/historicalplaces/ajintha_caves.jpg");
+    background-image: url("./images/historicalplaces/ajintha_caves.jpg");
     transition: all 1.0s;
 }
 
